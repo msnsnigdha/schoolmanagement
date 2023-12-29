@@ -86,7 +86,7 @@ public class HighSchoolServiceImpl implements HighSchoolAction {
 			existingSchDetails.setNoOfTeachers(newvlue.getNoOfTeachers());
 			existingSchDetails.setSchoolMailId(newvlue.getSchoolMailId());
 			schlrepo.save(existingSchDetails);
-			emailService.sendEmail("msnsnigdha01@gmail.com", "Updated Successfully", "Vaild Details entered");
+		//	emailService.sendEmail("msnsnigdha01@gmail.com", "Updated Successfully", "Vaild Details entered");
 			
 			
 }
